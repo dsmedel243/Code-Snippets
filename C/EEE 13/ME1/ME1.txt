@@ -1,0 +1,18 @@
+Machine Exercise 1
+Please note that the due date of ME 1 was moved to August 25, 5:30 PM. We will still proceed with ME 2 also on August 25, so please consider submitting before our class starts.
+
+Additional notes on implementation and checking:
+1) I will not be strict in checking which partitioning algorithm you used. There are many ways to tackle the problem, and as long as you choose a correct* and efficient** way, then it will receive the full amount of points.
+2) You may assume that the input array will have a size N, where 1<=N<=250. The array provided will be generated randomly.
+3) I will use the file 'quicksort.c' and 'quicksort.h' for checking. The 'me1.c' will be my basis on how you called the quicksort function, if you somehow implemented it in a different way than what I have in mind.
+4) As per Sir Tiglao's considerations, the array provided will only contain unique (non-repeating) values.
+5) The criteria for grading will be as follows:
+
+60% - Partitioning algorithm
+30% - Recursion implementation/structure
+10% - Code cleanliness
+
+You may email me (my and Sir Tiglao's email addresses are shown in the About section) for any concerns, clarifications, and consultations regarding the MEs.
+
+* - A correct program will, for every possible input, always return a correct output.
+** - Our classification of an efficient partitioning algorithm for quicksort will be O(N) in time [in simpler terms, this implies that you should not have a double-nested for loop]
